@@ -1,27 +1,38 @@
-Project: Lemonade App - Starter Code
+Project: Simple Lemonade App 
 ==================================
 
-Starter code for the first independent project for [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
+**Introduction**
+==================================
+Formerly, this was the starter code for the first independent project with its instrumentation 
+test suite for Android Basics in Kotlin course (https://developer.android.com/courses/android-basics-kotlin/course). 
+And now I have completed this project implementing the functions asked for,
+with all the concepts I learned from the first Unit of this course.
 
-Introduction
-------------
+**How it works**
+==================================
 
-This is the starter code for the Lemonade app project in the [final pathway](https://developer.android.com/courses/pathways/android-basics-kotlin-four) of Android Basics [Unit 1](https://developer.android.com/courses/android-basics-kotlin/unit-1). This project is an opportunity for you to demonstrate the concepts you learned in the unit.
+1. When users first launch the app, they're greeted with a prompt to pick a lemon by tapping a picture of a lemon tree.
 
-Pre-requisites
---------------
+![image](https://user-images.githubusercontent.com/88543783/154999781-6e8718bc-757d-4e1f-979a-8e782533e1ee.png)
 
-- Complete [Unit 1](https://developer.android.com/courses/android-basics-kotlin/unit-1) of Android Basics in Kotlin
 
-Getting Started
----------------
+2. Tapping the lemon tree presents the user with a lemon that they can tap to "squeeze" for an unspecified number of times (the exact number of required squeezes is randomly generated) before moving to the next screen.
 
-1. Download the starter code
-2. Open the project in Android Studio
-3. Complete the project in accordance with the [project instructions](https://developer.android.com/codelabs/basic-android-kotlin-training-project-lemonade)
+ ![image](https://user-images.githubusercontent.com/88543783/155000682-423229f1-e2d8-4caf-b7e8-f6eb20ed7b96.png)
+ 
+ 
+ 3. Once the user has tapped to squeeze the lemon the correct number of times, they will see an image of a glass to "drink" the lemonade.
+ 
+ ![image](https://user-images.githubusercontent.com/88543783/155001038-d46a5c53-20a5-4fcd-a977-9b93a524fcfa.png)
+ 
+ 
+ 4. After clicking to drink the lemonade, the glass appears empty, and the user can tap the image again to return to the first screen, and select another lemon from the tree.
 
-Tips
-----
+![image](https://user-images.githubusercontent.com/88543783/155001205-18bb6959-eb3f-49fb-974f-5a2b6fed5fad.png)
 
-- Use the provided tests to ensure your app is running as expected
-- DO NOT ALTER THE PROVIDED TESTS
+
+*Also available in light mode
+
+
+
+
