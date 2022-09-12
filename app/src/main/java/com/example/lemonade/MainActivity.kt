@@ -76,11 +76,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /**
-     * === DO NOT ALTER THIS METHOD ===
-     *
-     * This method saves the state of the app if it is put in the background.
-     */
+   
     override fun onSaveInstanceState(outState: Bundle) {
         outState.putString(LEMONADE_STATE, lemonadeState)
         outState.putInt(LEMON_SIZE, lemonSize)
